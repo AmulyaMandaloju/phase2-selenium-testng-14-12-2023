@@ -16,12 +16,6 @@ pipeline {
 	
 		}
 		
-		stage('Test stage') {
-			steps {
-				echo '--------------:: This is a compile stage :: ------------'
-				bat 'mvn clean test'
-			 }
-		}
 		
 	}
 
